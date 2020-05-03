@@ -89,5 +89,11 @@
   <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\AutoLotDAL.Models\AutoLotDAL.Models.csproj">
+      <Project>{b8a3e105-99c0-4023-9c75-e474bda2cd8c}</Project>
+      <Name>AutoLotDAL.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
